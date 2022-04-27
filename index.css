@@ -1,0 +1,40 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bgcolor {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adjustment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 280px;
+    width: 280px;
+  }
+  .heading {
+    font-size: 60px;
+  }
+}
+.heading {
+  font-family: "Roboto";
+  color: #f8fafc;
+  font-size: 32px;
+  font-weight: 700;
+}
